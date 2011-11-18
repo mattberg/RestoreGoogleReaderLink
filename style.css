@@ -1,0 +1,99 @@
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 12px; line-height: 1.250; }
+
+body, button, input, select, textarea { font-family: arial, sans-serif; color: #000; }
+
+header, footer { display: block; }
+
+.popup {
+	overflow: hidden;
+}
+
+.popup #container {
+	width: 180px;
+}
+
+header {
+	background: -webkit-gradient(radial,100 36,0,100 -40,120,from(white),to(whiteSmoke));
+	border-bottom: 1px solid #e5e5e5;
+}
+header h1 {
+	margin: 0 0 0 12px;
+	padding: 0 0 0 76px;
+	background: transparent url(icon_64.png) 0 12px no-repeat;
+	font-size: 24px;
+	line-height: 88px;
+}
+.popup header h1 {
+	margin-left: 6px;
+	padding-left: 30px;
+	background-image: url(icon_24.png);
+	background-position: 0 2px;
+	font-size: 1.167em;
+	line-height: 28px;
+}
+
+p {
+	margin: 0 0 12px 0;
+}
+
+#main {
+	padding: 12px 12px 0 12px;
+}
+#main label {
+	display: block;
+	margin: 0 0 3px 0;
+	font-weight: bold;
+}
+#main input {
+	padding: 2px;
+	width: 140px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+footer {
+	padding: 0 10px;
+}
+
+button {
+    color: #6e6e6e;
+    font: bold 12px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 7px 12px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    border: solid 1px #dcdcdc;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin-right: 10px;
+	cursor: pointer;
+}
+button:hover {
+    color: #333;
+    border-color: #999;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+button:active {
+    color: #000;
+    border-color: #444;
+}
+.popup button {
+	padding: 4px 8px;
+}
+
+.message {
+	margin: 0 0 12px 0;
+	padding: 4px 6px;
+	width: 132px;
+	background: #fffcc6;
+	border: 1px solid #fff54e;
+	font-style: italic;
+}

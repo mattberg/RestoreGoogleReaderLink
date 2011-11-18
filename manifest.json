@@ -1,0 +1,21 @@
+{
+	"name": "Restore Google Reader Link",
+	"version": "1.0",
+	"description": "Sick of Google moving the Google Reader link on you? This extension will restore the link in your toolbar, and even let you pick the position!",
+	
+	"browser_action": {
+		"default_icon": "icon_128.png",
+		"default_popup": "options_popup.html"
+	},
+
+	"icons": { "128": "icon_128.png" },
+	
+	"content_scripts": [
+		{
+			"matches": ["*://*.google.com/*"],
+			"js": ["jquery-1.6.4.min.js", "script.min.js"]
+		}
+	],
+	
+	"options_page": "options.html"
+}
